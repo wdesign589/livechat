@@ -10,7 +10,7 @@ function AdminAdminBubble({type, value}) {
                     <img src={logo} alt="" className='w-6 h-6' />
                 </div>
                 <div className='bg-notblack  max-w-[70vw] rounded-xl p-2'>
-                    <p className='text-sm text-wrap truncate font-medium font-sans antialiased text-lightblack'>{value}</p>
+                    <p className='text-sm text-wrap font-medium font-sans antialiased text-lightblack'>{value}</p>
                 </div>
             </div>
         )
