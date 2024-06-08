@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import Header from './components/header'
 import TextBox from './components/textBox'
 import Body from './components/body'
-import AdminAdminBubble from './components/adminBubble'
+import AdminAdminBubble from './components/adminAdminBubble'
 import AdminClientBubble from './components/adminClientBubble'
 
 
