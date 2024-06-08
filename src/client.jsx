@@ -131,7 +131,7 @@ function Client() {
                 key={message.id}
                 type = {message.type}
                 value = {message.value} 
-                admin={false}
+              
               />
             )
           }
@@ -142,7 +142,7 @@ function Client() {
                 key={message.id}
                 type = {message.type}
                 value= {message.value}
-                admin={false}
+                
               />
             )
           }

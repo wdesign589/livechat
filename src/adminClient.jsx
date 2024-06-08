@@ -142,7 +142,7 @@ function AdminClient() {
                 key={message.id}
                 type = {message.type}
                 value= {message.value}
-                admin={true}
+                
               />
             )
           }

@@ -2,10 +2,10 @@ import logo from '../assets/logo.png'
 
 
 
-function AdminBubble({type, value, admin}) {
+function AdminBubble({type, value}) {
     if(type == 'text'){
         return (
-            <div className={`p-2 flex flex-row${admin? '-reverse gap-2': ''} space-x-2`}>
+            <div className={`p-2 flex flex-row space-x-2`}>
                 <div className='bg-notblack w-8 h-8 items-center p-1 rounded-full'>
                     <img src={logo} alt="" className='w-6 h-6' />
                 </div>
@@ -18,7 +18,7 @@ function AdminBubble({type, value, admin}) {
 
     if(type == 'image'){
         return(
-            <div className={`p-2 flex flex-row${admin? '-reverse gap-2': ''} space-x-2`}>
+            <div className={`p-2 flex flex-row space-x-2`}>
                 <div className='bg-notblack w-8 h-8 items-center p-1 rounded-full'>
                     <img src={logo} alt="" className='w-6 h-6' />
                 </div>
