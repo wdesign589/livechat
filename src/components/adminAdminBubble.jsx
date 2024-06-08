@@ -23,7 +23,7 @@ function AdminAdminBubble({type, value}) {
                     <img src={logo} alt="" className='w-6 h-6' />
                 </div>
                 <div className='bg-notblack  max-w-[70vw] rounded-xl p-2'>
-                    <img src={value} alt="" className='w-[40vw]' />
+                    <img src={value} alt="" className='w-[150px]' />
                 </div>
             </div>
         )
